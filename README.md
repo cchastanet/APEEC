@@ -1,1 +1,1 @@
-Project APEEC: the association's showcase site
+-ecreate 4 pages html: accueil, index, contact, and actualité
