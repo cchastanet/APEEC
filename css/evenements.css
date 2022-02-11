@@ -1,0 +1,103 @@
+body {
+  background-color: #c4e9d0 ;
+  }
+ 
+  h1{
+    font-size: 22px ;
+    margin-bottom: 20px ;
+  }
+  
+  h2{
+    font-size: 18px ;
+    margin: 50px 0 20px 0 ;
+  }
+  
+  p{
+    font-size: 16px ;
+    text-align: center ;
+    font-family: 'Kaushan Script', cursive ;
+  }
+
+  h1, h2 {
+    text-align: center ;
+    color: rgb(21, 146, 94) ;
+    font-family: 'Kaushan Script', cursive ;
+  }
+  .header, div{
+    margin: 20px ;
+  }
+  
+  img{
+    margin: 10px ;
+    width: 30% ;
+  }
+  .date{
+    font-size: 20px ;
+    color: #af1d1d ;
+  }
+  
+  /*fils d'ariane*/
+.container {
+  margin-top: 20px ;
+}
+
+.first ol {
+  background-color: black !important ;
+}
+
+.first a:hover {
+  color: #ffffff !important ;
+}
+
+.active-1 {
+  color: #ffffff !important ;
+}
+
+.first {
+  background-color: white !important ;
+}
+
+a {
+  text-decoration: none !important ;
+  color: #aaa !important ;
+}
+
+a:focus,
+a:active {
+  outline: none !important ;
+  box-shadow: none !important ;
+}
+
+.fa-caret-right {
+  vertical-align: middle ;
+  font-size: 20px !important ;
+}
+/*Diminution de la taille sous 767px*/
+@media (max-width: 767px) {
+  .breadcrumb {
+      font-size: 10px ;
+  }
+
+  .breadcrumb-item+.breadcrumb-item {
+      padding-left: 0 ;
+  }
+
+  .fa {
+      font-size: 9px !important ;
+  } 
+
+  .breadcrumb {
+      letter-spacing: 1px !important ;
+  }
+
+  .fa-caret-right:before {
+      content: "\f0da";
+      vertical-align: super !important ;
+  }
+}
+/*suppression du fils d'ariane sous 350px*/
+@media (max-width: 350px){
+  .ariane{
+     display:none ;
+  }
+}
