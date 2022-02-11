@@ -1,0 +1,95 @@
+html {
+  margin: 3px;
+  padding: 3px;
+  background: linear-gradient(grey, black,grey);
+}
+
+h1, h2 {
+  text-align: center;
+  color: rgb(21, 146, 94);
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+  text-shadow: 3px 3px 4px #000, 0 0 3em #000, 0 0 0.2em #000;
+}
+
+h2 {
+  font-size: 24px;
+  background-position: center;
+} 
+
+/* suppression du descriptif de l'APEEC quand ecran < à 400px */
+@media (max-width: 400px){
+  h2{
+      display: none;
+  }
+}
+
+
+
+a, h2 {
+  font-family: 'Parisienne', cursive;  
+}
+
+p{
+  font-size: 12px;
+}
+
+
+/*Définition du fond d'écran avec dégradé*/
+header {
+  background-image: radial-gradient(closest-side, #DCDCDC, #FF8C00, #D3D3D3);
+}
+
+
+
+/* images centrées et responsives*/
+img, .image {
+  display: flex;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+  padding-top: 5px;
+}
+
+.image {
+  background-image: url("../Img/panneauMichelLegrand.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 98vw;
+  margin-top: 10px;
+  padding: 0;
+}
+
+/* réglage du lien vers site */
+
+a {
+  border: 2px solid rgb(21, 146, 94);
+  border-radius: 10% 10% 10% 10%;
+  background-color:#000;
+  opacity: 0.75;
+  width: auto;
+  height: 70px;
+  font-size: 25px;
+  color:#FF8C00;
+  text-align: center;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
