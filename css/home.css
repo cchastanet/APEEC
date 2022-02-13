@@ -4,6 +4,7 @@ html {
   background: linear-gradient(grey, black,grey);
 }
 
+/*header*/
 h1, h2 {
   text-align: center;
   color: rgb(21, 146, 94);
@@ -20,27 +21,23 @@ h2 {
   background-position: center;
 } 
 
+a, h2 {
+  font-family: 'Parisienne', cursive;  
+}
+
+/*Définition du fond d'écran avec dégradé*/
+header {
+  background-image: radial-gradient(closest-side, #DCDCDC, #FF8C00, #D3D3D3);
+  border-radius: 20px;
+  padding: 20px 10px 0 10px;
+}
+
+
 /* suppression du descriptif de l'APEEC quand ecran < à 400px */
 @media (max-width: 400px){
   h2{
       display: none;
   }
-}
-
-
-
-a, h2 {
-  font-family: 'Parisienne', cursive;  
-}
-
-p{
-  font-size: 12px;
-}
-
-
-/*Définition du fond d'écran avec dégradé*/
-header {
-  background-image: radial-gradient(closest-side, #DCDCDC, #FF8C00, #D3D3D3);
 }
 
 
@@ -57,6 +54,7 @@ img {
   max-width: 100%;
   height: auto;
   padding-top: 5px;
+  border-radius: 30px;
 }
 
 .image {
@@ -67,7 +65,10 @@ img {
   height: 98vw;
   margin-top: 10px;
   padding: 0;
+  border-radius: 50%;
 }
+
+
 
 /* réglage du lien vers site */
 
@@ -92,4 +93,12 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+
+/*footer*/
+p{
+  font-size: 14px;
+  font-family: cursive;
 }
