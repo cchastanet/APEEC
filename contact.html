@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pour nous contacter">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="all" />
+	    <meta name="language" content="fr" />	  
+        <title>Contact</title>
+
+<!--font-->
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oi&family=Pacifico&display=swap" rel="stylesheet">
+  	    <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oi&family=Pacifico&family=Parisienne&display=swap"
+	    rel="stylesheet">
+ 	    <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&display=swap" rel="stylesheet"> 
+<!-- files css-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/contact.css">
+<!--files JS-->
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"><strong>APEEC</strong></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="descriptif.html">l'APEEC </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="evenements.html">Evénements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> 
+        </header>   
+        
+        <main>
+            <!--logo-->
+            <div class="container-fluid logo">
+                <div class="row">
+                    <div>
+                        <img src="img/logo.png" alt="LOGO">
+                        <h1><strong>APEEC</strong></h1>
+                    </div>   
+                </div>   
+            </div>   
+<!-- fis d'ariane-->
+            <div class="container container-md-fluid ariane">
+                <div class="row ">
+                    <div class="col-auto col-md-10 ">
+                        <div class="bc-icons-2 ">
+                            <nav aria-label="breadcrumb " class="first">
+                                <ol class="breadcrumb first shadow-lg mb-5 bg-dark navbar-light mb-5 px-md-4">
+                                    <li class="breadcrumb-item font-weight-bold font-italic"><a class="color black-text text-uppercase" href="descriptif.html"><span class="mr-md-3 mr-2"><strong>APEEC</strong></span></a><i class="fa fa-caret-right " aria-hidden="true"></i></li>
+                                    <li class="breadcrumb-item font-weight-bold font-italic"><a class="color black-text text-uppercase" href="evenements.html"><span class="mr-md-3 mr-2"><strong>Evénements</strong></span></a><i class="fa fa-caret-right text-uppercase " aria-hidden="true"></i></li>
+                                    <li class="breadcrumb-item font-weight-bold font-italic "><a class="color black-text text-uppercase active-1" href="contact.html"><span class="mr-md-3 mr-2"><strong>Contact</strong></span></a><i class="fa fa-caret-right text-uppercase " aria-hidden="true"></i></li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--formulaire-->      
+            
+            <h2 class="titre"><strong>Formulaire de contact / d'adhésion</strong></h2>
+            <div class="row">
+                <div class="contact-wraper col">
+                    <form class="form-horizontal" method="post" action="contact.html">
+                        <h1 class="section-header">FORMULAIRE de renseignement</h1>
+                            <label for="name">Nom</label>
+                                <input type="text" id="name" placeholder="nom" name="name" required>
+                            <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="email@mail.com" name="email" required>
+                            <label for="phone">Téléphone</label>
+                                <input type="tel" id="phone" placeholder="0600000000" name="phone">
+                            <label for="category">Catégorie de question</label>
+                                <select id="category" name="category">
+                                    <option value="default">Choisissez une catégorie</option>
+                                    <option value="help">Aide</option>
+                                    <option value="adhésion-contact">Adhésion</option>
+                                </select>
+                            <label for="message">Message</label>
+                                <textarea rows="10" id="message" name="message" required></textarea>
+                            <button class="send-button" id="submit" type="submit">Envoyer</button>
+
+                        <div class="advert-wrapper">
+                            <p>Souhaitez-vous recevoir nottre newsletter ?</p>
+                                <input type="radio" id="yes" name="news-question" value="yes" checked>
+                                    <label for="yes">Oui</label>
+                                <input type="radio" id="no" name="news-question" value="no">
+                                    <label for="no">Non</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="col">
+                    <h3>Comment nous contacter ou nous suivre?</h3>
+                    <ul class="marge">
+                        <li><span class="lien">Adresse:</span> <br>Clos Saint Maurice,<br> 2 Rue Jean Jaurès<br> 17300 Rochefort</li>
+                        <li>Tél:<a class="lien" href="tel:+33600000000">  06 00 00 00 00</a></li>
+                        <li>Mail:<a class="lien" href="mailto:apeec@coucou.fr">  apeec@coucou.fr</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </main>
+ <!--footer avec copyright-->  
+
+        <footer>
+            <div>
+                <p>© 2021 <strong>APEEC</strong></p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,227 @@
+
+
+
+  body {
+  background-color: #c4e9d0 ;
+ *margin: 0 ;
+  padding: 0 ;
+  }
+ header{
+   margin: 40px ;
+ }
+
+ h1{
+    font-size: 20px ;
+    
+  }
+  
+  h2{
+    font-size: 18px ;
+    
+  }
+  
+  p{
+    font-size: 16px ;
+    text-align: center ;
+    font-family: 'Kaushan Script', cursive ;
+  }
+
+  h1, h2 {
+    text-align: center ;
+    color: rgb(21, 146, 94) ;
+    font-family: 'Kaushan Script', cursive ;
+  }
+  h3{
+    text-align: center ;
+    color: rgb(21, 146, 94) ;
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive ;
+  }
+  
+  
+/*logo responsive et centrer*/
+.logo{
+  margin: 30px;  
+  padding-left : 10px;
+  padding-right: 10px;
+  width: auto;
+ }
+ @media (min-width: 950px){
+   .logo{
+    margin: 30px;  
+  padding-left: 170px;
+  padding-right: 170px;
+  width: auto;
+   }
+ }
+
+img{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: center;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/*fils d'ariane*/
+.ariane {
+  margin-top: 20px ;
+}
+
+.first ol {
+  background-color: black !important ;
+}
+
+.first a:hover {
+  color: #ffffff !important ;
+}
+
+.active-1 {
+  color: #ffffff !important ;
+}
+
+.first {
+  background-color: white !important ;
+}
+
+.color {
+  text-decoration: none !important ;
+  color: #aaa !important ;
+}
+
+.color:focus,
+.color:active {
+  outline: none !important ;
+  box-shadow: none !important ;
+}
+
+.fa-caret-right {
+  vertical-align: middle ;
+  font-size: 20px !important ;
+}
+/*Diminution de la taille  de police du file d'ariane sous 767px*/
+@media (max-width: 767px) {
+  .breadcrumb {
+      font-size: 10px ;
+  }
+
+  .breadcrumb-item+.breadcrumb-item {
+      padding-left: 0 ;
+  }
+
+  .fa {
+      font-size: 9px !important ;
+  } 
+
+  .breadcrumb {
+      letter-spacing: 1px !important ;
+  }
+
+  .fa-caret-right:before {
+      content: "\f0da";
+      vertical-align: super !important ;
+  }
+}
+
+
+/*suppression du fils d'ariane sous 350px*/
+@media (max-width: 350px){
+  .ariane{
+     display:none ;
+  }
+}
+
+/*formulaire*/
+
+  form {
+  display: flex ;
+  flex-direction: column ;
+  padding: 2rem ;
+  box-shadow: 10px 5px 5px black ;
+  border-radius: 20px ;
+  margin-bottom: 2rem ;
+  }
+  .contact-wrapper {
+  display: flex ;
+  flex-direction: column  ;
+  align-items: center ;
+  margin-top: 2rem ;
+  }
+  input, textarea, select {
+  margin-bottom: 1rem ;
+  border-radius: 7px ;
+  padding: 0.3rem ;
+  border: solid 1px ;
+  }
+  textarea {
+  max-width: 400px ;
+  letter-spacing: 1px ;
+  }
+  input:focus, textarea:focus, select:focus, button:focus {
+  outline: none ;
+  
+  box-shadow: 10px 5px 5px green ;
+  border: solid 1px #d5e1db ;
+  }
+  label {
+  margin-bottom: 0.5rem ;
+  }
+  .section-header {
+  text-align: center ;
+  margin: 0 auto ;
+  margin-bottom: 50px ;
+  font: 300 2rem 'Lato', sans-serif ;
+  letter-spacing: 6px ;
+  margin-bottom: 25px ;
+  }
+  @media only screen and (max-width: 400px) {
+    .section-header {
+      font: 300 1rem 'Lato', sans-serif ;
+    }
+    }
+
+  .form-horizontal {
+  max-width: 400px ;
+  font-family: 'Lato';
+  font-weight: 400 ;
+  }
+  .send-button {
+  margin-top: 15px ;
+  height: 34px ;
+  width: 200px ;
+  background-color: #d5e1db ;
+  border: none ;
+  border-radius: 7px ;
+  font: 300 14px 'Lato', sans-serif ;
+  letter-spacing: 2px ;
+  }
+  .send-button:hover {
+  cursor: pointer ;
+  color: white ;
+  background-color: #d3d3d3 ;
+  }
+  .advert-wrapper {
+  color: grey ;
+  font-size: 0.8rem ;
+  margin-top: 2rem ;
+  }
+
+
+
+
+  .lien {
+  color: orangered ;
+}
+  
+h3{
+  margin-bottom: 50px ;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
+.marge{
+  line-height:30px ;
+}
+
