@@ -1,45 +1,19 @@
 body {
   background-color: #c4e9d0 ;
   }
- 
-  h1{
-    font-size: 22px ;
-    margin-bottom: 20px ;
-  }
-  
-  h2{
-    font-size: 18px ;
-    margin: 50px 0 20px 0 ;
-  }
-  
-  p{
-    font-size: 16px ;
-    text-align: center ;
-    font-family: 'Kaushan Script', cursive ;
-  }
 
-  h1, h2 {
-    text-align: center ;
-    color: rgb(21, 146, 94) ;
-    font-family: 'Kaushan Script', cursive ;
-  }
-  .header, div{
+  /*menu de navigation*/
+  .navbar {
     margin: 20px ;
+    border-radius: 20px ;
+    padding:20px ;
   }
+   
   
-  img{
-    margin: 10px ;
-    width: 30% ;
-  }
-  .date{
-    font-size: 20px ;
-    color: #af1d1d ;
-  }
-  
-  /*fils d'ariane*/
+ /*fils d'ariane*/
 .container {
   margin-top: 20px ;
-}
+  }
 
 .first ol {
   background-color: black !important ;
@@ -55,6 +29,7 @@ body {
 
 .first {
   background-color: white !important ;
+  border-radius: 20px ;
 }
 
 a {
@@ -91,13 +66,62 @@ a:active {
   }
 
   .fa-caret-right:before {
-      content: "\f0da";
+      content: "\f0da" ;
       vertical-align: super !important ;
   }
 }
 /*suppression du fils d'ariane sous 350px*/
-@media (max-width: 350px){
-  .ariane{
+@media (max-width: 350px) {
+  .ariane {
      display:none ;
   }
+}
+
+/* mise en page textes et images*/
+h1{
+  font-size: 22px ;
+  margin-bottom: 20px ;
+  border: #fff solid 2px ;
+  border-width: 10px ;
+}
+
+h2{
+  font-size: 18px ;
+  margin: 70px 0 20px 0 ;
+}
+
+p{
+  font-size: 16px ;
+  text-align: center ;
+  font-family: cursive ;
+}
+
+h1, h2 {
+  text-align: center ;
+  color: rgb(21, 146, 94) ;
+  font-family: 'Kaushan Script', cursive ;
+}
+.header, div{
+  margin: 20px ;
+}
+
+img{
+  margin: 10px ;
+  width: 30% ;
+}
+
+.espace{
+  margin-bottom: 50px ;
+}
+.date{
+  font-size: 20px ;
+  color: #af1d1d ;
+}
+
+/*footer*/
+.copyright {
+  font-size: 14px ;
+  font-family: cursive ;
+  text-align: left ;
+  padding-left: 10px ;
 }
