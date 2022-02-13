@@ -2,39 +2,19 @@
 body {
   background-color: #c4e9d0 ;
   }
- 
-  h1{
-    font-size: 20px ;
-    margin-bottom: 50px;
-  }
-  
-  h2{
-    font-size: 18px ;
-  }
-  
-  p{
-    font-size: 16px ;
-    text-align: center ;
-    font-family: 'Kaushan Script', cursive ;
-  }
 
-  h1, h2 {
-    text-align: center ;
-    color: rgb(21, 146, 94) ;
-    font-family: 'Kaushan Script', cursive ;
-  }
-    
-  .header{
+  /*menu de navigation*/
+  .navbar {
     margin: 20px ;
+    border-radius: 20px ;
+    padding:20px ;
   }
-  .espace{
-    margin-bottom:50px ;
-  }
-
-    /*Carousel*/
+  
+  /*Carousel*/
   #carouselMusic {
     width: 50% ;
     margin:0 auto ;
+    padding: 20px ;
     }
   
   .carousel-item img {
@@ -42,27 +22,15 @@ body {
     height: auto ;
   }
 
-
-  /*mise en page des 2 images et suppression quand < à 768px*/
-  .adaptImage>img{
-    width: 90%;
-    height: auto ;
-    margin: 5px ;
-  }
+.border-radius {
+  border-radius: 50% ;
+}
   
-  @media (max-width: 768px){
-   .adaptImage{
-      display:none ;
-   }
- }
-
-
-
 
 /*fils d'ariane*/
 .container {
   margin-top: 20px ;
-}
+  }
 
 .first ol {
   background-color: black !important ;
@@ -78,6 +46,7 @@ body {
 
 .first {
   background-color: white !important ;
+  border-radius: 20px ;
 }
 
 a {
@@ -114,13 +83,71 @@ a:active {
   }
 
   .fa-caret-right:before {
-      content: "\f0da";
+      content: "\f0da" ;
       vertical-align: super !important ;
   }
 }
 /*suppression du fils d'ariane sous 350px*/
-@media (max-width: 350px){
-  .ariane{
+@media (max-width: 350px) {
+  .ariane {
      display:none ;
   }
 }
+
+
+
+/*mise en page texte */
+h1 {
+  font-size: 20px ;
+  margin-bottom: 50px ;
+  border-bottom: solid #fff ;
+  border-bottom-width: 1em ;
+  padding-bottom: 30px ;
+}
+
+h2 {
+  font-size: 18px ;
+}
+
+h1, h2 {
+  text-align: center ;
+  color: rgb(21, 146, 94) ;
+  font-family: 'Kaushan Script', cursive ;
+}
+p {
+  font-size: 14px ;
+  text-align: center ;
+  font-family: cursive ;
+}  
+  
+
+li {
+  font-family: cursive;
+  font-size: 14px;
+}
+
+.separation {
+  border: 2px solid black;
+  padding: 2px;
+  border-radius: 10px;
+  padding: 40px 0 40px 0;
+}
+
+/*mise en page des 2 images */
+.adaptImage>img {
+  width: 90% ;
+  height: auto ;
+  margin: 10px ;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+
+/*footer*/
+.copyright {
+  font-size: 14px ;
+  font-family: cursive ;
+  text-align: left ;
+  padding-left: 10px ;
+}
+

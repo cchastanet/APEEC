@@ -1,42 +1,42 @@
 html {
-  margin: 3px;
-  padding: 3px;
-  background: linear-gradient(grey, black,grey);
+  margin: 3px ;
+  padding: 3px ;
+  background: linear-gradient(grey, black,grey) ;
 }
 
 /*header*/
 h1, h2 {
-  text-align: center;
-  color: rgb(21, 146, 94);
+  text-align: center ;
+  color: rgb(21, 146, 94) ;
 }
 
 h1 {
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Kaushan Script', cursive ;
   font-size: 40px;
-  text-shadow: 3px 3px 4px #000, 0 0 3em #000, 0 0 0.2em #000;
+  text-shadow: 3px 3px 4px #000, 0 0 3em #000, 0 0 0.2em #000 ;
 }
 
 h2 {
-  font-size: 24px;
-  background-position: center;
+  font-size: 24px ;
+  background-position: center ;
 } 
 
 a, h2 {
-  font-family: 'Parisienne', cursive;  
+  font-family: 'Parisienne', cursive ;  
 }
 
 /*Définition du fond d'écran avec dégradé*/
 header {
-  background-image: radial-gradient(closest-side, #DCDCDC, #FF8C00, #D3D3D3);
-  border-radius: 20px;
-  padding: 20px 10px 0 10px;
+  background-image: radial-gradient(closest-side, #DCDCDC, #FF8C00, #D3D3D3) ;
+  border-radius: 20px ;
+  padding: 10px 10px 0 10px ;
 }
 
 
 /* suppression du descriptif de l'APEEC quand ecran < à 400px */
 @media (max-width: 400px){
   h2{
-      display: none;
+      display: none ;
   }
 }
 
@@ -44,28 +44,28 @@ header {
 
 /* images centrées et responsives*/
 img, .image {
-  display: flex;
+  display: flex ;
 }
 
 img {
-  margin-left: auto;
-  margin-right: auto;
-  background-position: center;
-  max-width: 100%;
-  height: auto;
-  padding-top: 5px;
-  border-radius: 30px;
+  margin-left: auto ;
+  margin-right: auto ;
+  background-position: center ;
+  max-width: 100% ;
+  height: auto ;
+  padding-top: 5px ;
+  border-radius: 30px ;
 }
 
 .image {
   background-image: url("../Img/panneauMichelLegrand.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  height: 98vw;
-  margin-top: 10px;
-  padding: 0;
-  border-radius: 50%;
+  background-repeat: no-repeat ;
+  background-position: center ;
+  background-size: contain ;
+  height: 98vw ;
+  margin-top: 10px ;
+  padding: 0 ;
+  border-radius: 50% ;
 }
 
 
@@ -73,32 +73,32 @@ img {
 /* réglage du lien vers site */
 
 a {
-  border: 2px solid rgb(21, 146, 94);
-  border-radius: 10% 10% 10% 10%;
-  background-color:#000;
-  opacity: 0.75;
-  width: auto;
-  height: 70px;
-  font-size: 25px;
-  color:#FF8C00;
-  text-align: center;
+  border: 2px solid rgb(21, 146, 94) ;
+  border-radius: 10% 10% 10% 10% ;
+  background-color:#000 ;
+  opacity: 0.75 ;
+  width: auto ;
+  height: 70px ;
+  font-size: 25px ;
+  color:#FF8C00 ;
+  text-align: center ;
 }
 
 a:hover {
-  background-color: gold;
+  background-color: gold ;
 }
 
 
 .link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
 }
 
 
 
 /*footer*/
 p{
-  font-size: 14px;
-  font-family: cursive;
+  font-size: 14px ;
+  font-family: cursive ;
 }
