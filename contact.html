@@ -29,7 +29,7 @@
     </head>
 
     <body>
-        <!--Navbar-->
+        <!--menu de navigation-->
         <header>
             <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
                 <a class="navbar-brand" href="descriptif.html"><strong>APEEC</strong></a>
@@ -39,14 +39,14 @@
     
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="descriptif.html"><strong>l'APEEC</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="evenements.html"><strong>Evénements</strong></a>
+                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="descriptif.html">l'APEEC </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="evenements.html">Evénements</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#"><strong>Contact</strong><span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
@@ -58,7 +58,7 @@
             <div class="container-fluid logo">
                 <div class="row">
                     <div>
-                        <img src="img/logo.png" alt="LOGO">
+                        <img  class="border-radius" src="img/logo.png" alt="LOGO">
                         <h1><strong>APEEC</strong></h1>
                     </div>   
                 </div>   
@@ -113,23 +113,23 @@
                         </div>
                     </form>
                 </div>
-                <div class="col">
-                    <h3>Comment nous contacter ou nous suivre?</h3>
+                <!--liens de contact-->
+                <div class="col contact">
+                    <h3 class="titre">Comment nous contacter ou nous suivre?</h3>
                     <ul class="marge">
                         <li><span class="lien">Adresse:</span> <br>Clos Saint Maurice,<br> 2 Rue Jean Jaurès<br> 17300 Rochefort</li>
-                        <li>Tél:<a class="lien" href="tel:+33600000000">  06 00 00 00 00</a></li>
+                        <li class="aere">Tél:<a class="lien" href="tel:+33600000000">  06 00 00 00 00</a></li>
                         <li>Mail:<a class="lien" href="mailto:apeec@coucou.fr">  apeec@coucou.fr</a></li>
+                        <li class="aere"><span class="lien">Rejoignez-nous sur les réseaux sociaux</span>:<br>
+                            <ul>
+                                <li class="horizontale"><a href="https://www.facebook.com/" target="_blank"><img  class="icone" src="img/facebook.png"   alt="icone facebook"/></a></li>
+                                <li class="horizontale"><a href="https://twitter.com/" target="_blank"><img class="icone" src="img/twitter.png"   alt="icone twitter"/></a></li>
+                            </ul>  
+                        </li>
                     </ul>
                 </div>
                 
             </div>
         </main>
- <!--footer avec copyright-->  
-
-        <footer>
-            <div>
-                <p>© 2021 <strong>APEEC</strong></p>
-            </div>
-        </footer>
     </body>
 </html>
