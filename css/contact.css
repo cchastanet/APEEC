@@ -39,7 +39,6 @@ img {
   display: flex ;
   margin-left: auto ;
   margin-right: auto ;
-  position: center ;
   max-width: 100% ;
   height: auto ;
 }
@@ -54,10 +53,6 @@ img {
 }
 
 .first a:hover {
-  color: #ffffff !important ;
-}
-
-.active-1 {
   color: #ffffff !important ;
 }
 
@@ -76,7 +71,9 @@ img {
   outline: none !important ;
   box-shadow: none !important ;
 }
-
+.active-1 {
+  color: #ffffff !important ;
+}
 .fa-caret-right {
   vertical-align: middle ;
   font-size: 20px !important ;

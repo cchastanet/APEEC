@@ -28,9 +28,9 @@ body {
   
 
 /*fils d'ariane*/
-.container {
+.ariane {
   margin-top: 20px ;
-  }
+}
 
 .first ol {
   background-color: black !important ;
@@ -40,31 +40,30 @@ body {
   color: #ffffff !important ;
 }
 
-.active-1 {
-  color: #ffffff !important ;
-}
-
 .first {
   background-color: white !important ;
   border-radius: 20px ;
 }
 
-a {
+.color {
   text-decoration: none !important ;
   color: #aaa !important ;
 }
 
-a:focus,
-a:active {
+.color:focus,
+.color:active {
   outline: none !important ;
   box-shadow: none !important ;
+}
+.active-1 {
+  color: #ffffff !important ;
 }
 
 .fa-caret-right {
   vertical-align: middle ;
   font-size: 20px !important ;
 }
-/*Diminution de la taille sous 767px*/
+/*Diminution de la taille  de police du file d'ariane sous 767px*/
 @media (max-width: 767px) {
   .breadcrumb {
       font-size: 10px ;
@@ -83,13 +82,15 @@ a:active {
   }
 
   .fa-caret-right:before {
-      content: "\f0da" ;
+      content: "\f0da";
       vertical-align: super !important ;
   }
 }
+
+
 /*suppression du fils d'ariane sous 350px*/
 @media (max-width: 350px) {
-  .ariane {
+  .ariane{
      display:none ;
   }
 }
