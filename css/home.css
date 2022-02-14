@@ -58,7 +58,7 @@ img {
 }
 
 .image {
-  background-image: url("../Img/panneauMichelLegrand.png");
+  background-image: url("../img/panneau.png") ;
   background-repeat: no-repeat ;
   background-position: center ;
   background-size: contain ;
